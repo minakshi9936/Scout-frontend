@@ -12,7 +12,7 @@
     font-family: Arial, sans-serif;
     font-size: 14px;         
     position: relative;
-    top: 58vh;
+    /* top: 58vh; */
     bottom: 0;
     width: 100%;             
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 

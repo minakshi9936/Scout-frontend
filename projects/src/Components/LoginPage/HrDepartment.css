@@ -1,0 +1,114 @@
+/* Container for the entire form */
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  /* Header style */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form label style */
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  /* Input fields styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Submit button style */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the calculated salary result */
+  #salaryResult {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #salaryResult p {
+    font-size: 18px;
+    color: #00796b;
+  }
+  
+  /* Button container for Edit and Delete actions */
+  div > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Edit and Delete buttons style */
+  button.edit-btn, button.delete-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 48%;
+  }
+  
+  button.edit-btn:hover, button.delete-btn:hover {
+    background-color: #fb8c00;
+  }
+  
+  /* Delete button custom color */
+  button.delete-btn {
+    background-color: #f44336;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Small screen responsiveness */
+  @media (max-width: 600px) {
+    div {
+      padding: 15px;
+    }
+  
+    button[type="submit"], button.edit-btn, button.delete-btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    #salaryResult p {
+      font-size: 16px;
+    }
+  }

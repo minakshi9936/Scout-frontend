@@ -6,12 +6,13 @@ const ContactComponent = () => {
   return (
     <div className='contact'>
       <h1>Contact Us</h1>
-      <div>
-      <p >Anant Bajaj Hub-Building#40, Sudarshanpura, Bais Godam Jaipur, Rajasthan-302006 scouttribeindia@outlook.com
-          scouttribeindia@gmail.com
-          +91145-355-0034
-          +919680576352
-          +918619608161</p>
+      <div className='contact-content'>
+      <h2>Anant Bajaj Hub-Building#40, Sudarshanpura, Bais Godam Jaipur, Rajasthan-302006 scouttribeindia@outlook.com</h2>
+         <p>scouttribeindia@gmail.com</p> 
+          <p>+91145-355-0034</p>
+          <p>+919680576352</p>
+          <p>+918619608161</p>
+               
       </div>
     </div>
   );

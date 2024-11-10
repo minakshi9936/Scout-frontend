@@ -13,9 +13,9 @@ const Header = () =>
     (
      <Router>
        <div>
-         <header>
-          <div className='logo'></div>
-           <nav>
+         <header className='header-width'>
+          <p className='logo' alt="Scout-image" ></p>
+           <nav className='contain-nav'>
              <ul>
                <li>
                  <NavLink to="/" end activeClassName="active-link">Home</NavLink>
@@ -27,7 +27,7 @@ const Header = () =>
                  <NavLink to="/contact" activeClassName="active-link">Contact</NavLink>
                </li>
                <li>
-                 <NavLink to="/services" activeClassName="active-link" className="logo">Services</NavLink>
+                 <NavLink to="/services" activeClassName="active-link">Services</NavLink>
                </li>
                <li>
                  <NavLink to="/login" activeClassName="active-link">Login</NavLink>

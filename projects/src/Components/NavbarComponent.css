@@ -1,35 +1,45 @@
 
-  header {
+  .header-width {
     background-color: #333;
-    padding: 10px;
+    height: 80px;
   }
   
-  .logo{
-    /* display: flex; */
-    /* align-items: center; */
-    /* background-image: url('../ScoutCompany/ScoutLogo.jpg'); */
-    /* height: 40px; */
-    /* width: 40px; */
-  }
+ .logo{
+   background-image: url('../ScoutCompany/images.png');
+   height: 30px;
+   width: 10%;
+   background-position: center;
+   background-size:cover ;
+   border-radius: 10px;
+   position: relative;
+   left: 11%;
+   top: 7px;
+   display: inline-block;
+   align-items: center;
+   cursor: pointer;
+ }
 
   nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 100px;
+    bottom: 10%; 
+    gap: 110px;
   }
   
-    /* nav ul li {
-      display: inline;
-      margin-right: 20px;
-    } */
-  
   nav ul li a {
+    align-items: center;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .contain-nav{
+    display: inline-block;
+    position: relative;
+    left: 21%;
+    bottom: 20%;
   }
   
-  /* nav ul li a.active-link {
-    color: #ff6347;
-  } */
+  
